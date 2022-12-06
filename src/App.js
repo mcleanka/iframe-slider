@@ -24,6 +24,10 @@ function App() {
 
 	useEffect(() => {
 		getData()
+	}, [])
+
+
+	useEffect(() => {
 
 		if (currentCount === iframes.length) setCount(0);
 
@@ -32,10 +36,8 @@ function App() {
 			setIframe(iframes[currentCount])
 		}, timeOut);
 
-		console.log(currentCount);
-
 		return () => clearInterval(id);
-	}, [currentCount]);
+	}, [currentCount, iframes]);
 
 	return isLoading ? <div>Loading...</div> : <Iframe
 		url={iframe.src}
