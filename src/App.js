@@ -26,7 +26,6 @@ function App() {
 		getData()
 	}, [])
 
-
 	useEffect(() => {
 
 		if (currentCount === iframes.length) setCount(0);
