@@ -1,0 +1,20 @@
+{
+  "iframes": [
+    {
+      "title": "iframe 1",
+      "src": "https://app.powerbi.com/groups/me/reports/7faec24a-2041-4a03-bf62-9f67e367cb94/ReportSectione329ab1e2a96150e09a4?fromEntryPoint=export"
+    },
+    {
+      "title": "iframe 1",
+      "src": "https://www.youtube.com/embed/HyhFQjedXH4"
+    },
+    {
+      "title": "iframe 1",
+      "src": "https://app.powerbi.com/reportEmbed?reportId=f882abc1-8e98-4451-a15c-dadebfc70061"
+    },
+    {
+      "title": "iframe 2",
+      "src": "https://www.youtube.com/embed/_vWq_mP1nCQ"
+    }
+  ]
+}
